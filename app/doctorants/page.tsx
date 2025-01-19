@@ -1,10 +1,39 @@
-import DoctorantCard from '../components/DoctorantCard'
+import DoctorantCard from '../components/DoctorantCard';
 
 const doctorants = [
-  { name: 'Alice Johnson', research: 'AI Ethics in Healthcare', year: 3 },
-  { name: 'Bob Williams', research: 'Quantum Cryptography Protocols', year: 2 },
-  { name: 'Carol Martinez', research: 'Efficient Solar Cell Materials', year: 4 },
-]
+  {
+    name: 'Zineb KAMAL IDRISSI',
+    research: 'Blockchain and Artificial Intelligence in Transport and Logistics',
+    specialty: 'Blockchain Technology',
+    supervisor: 'Prof. Hamid HRIMECH',
+    status: 'In Progress',
+    year:3
+  },
+  {
+    name: 'Bader BENHIRT',
+    research: 'Automatic Generation of Machine Learning Pipelines: Towards Complete Automation from Modeling to Deployment',
+    specialty: 'Machine Learning Pipelines',
+    supervisor: 'Prof. Rahhal ERRATTAHI',
+    status: 'In Progress',
+    year:1
+  },
+  {
+    name: 'Laila HAMZA',
+    research: 'Automatic Generation of Machine Learning Pipelines: Towards Complete Automation from Modeling to Deployment',
+    specialty: 'Machine Learning Pipelines',
+    supervisor: 'Prof. Rahhal ERRATTAHI',
+    status: 'In Progress',
+    year:1
+  },
+  {
+    name: 'Soukaina DADI',
+    research: 'Using Deep Learning and AI for Analysis, Security, and Autonomous Navigation of Drones',
+    specialty: 'Deep Learning and Autonomous Navigation',
+    supervisor: 'Prof. Ali KARTIT',
+    status: 'In Progress',
+    year:1
+  }
+];
 
 export default function Doctorants() {
   return (
@@ -16,6 +45,5 @@ export default function Doctorants() {
         ))}
       </div>
     </div>
-  )
+  );
 }
-
