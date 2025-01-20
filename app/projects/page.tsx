@@ -28,9 +28,10 @@ const projects = [
   },
   {
     title: 'SkinHealthMate',
-    description: 'An AI-powered digital platform designed for skin disease diagnosis. It leverages advanced ensemble learning with EfficientNetB1 and EfficientNetB5, incorporating image augmentation, noise reduction, and secure data management for dermatological care.',
+    description: 'An AI-driven platform for diagnosing skin diseases, integrating advanced machine learning techniques with a user-friendly web and mobile application. It supports dermatologists and patients by providing accurate diagnostic tools, treatment management, and secure access to medical records.',
     status: 'Ongoing'
-  },  
+  }
+  ,  
   { 
     title: 'SmartBlendEd', 
     description: 'An AI-driven platform for enhancing blended learning through optimized scheduling and user-centric design.', 
