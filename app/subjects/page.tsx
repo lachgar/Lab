@@ -28,7 +28,19 @@ const researchSubjects = [
   {
     title: 'AI-Driven Blended Learning Platforms',
     description: 'Creating innovative educational platforms that leverage AI for optimized scheduling and enhanced user-centric design.'
-  }
+  },
+  {
+    title: 'Security of MANET Routing Protocols',
+    description: 'Analysis and enforcement of the security of MANET routing protocols to protect against various network attacks.'
+  },
+  {
+    title: 'Optimization of Routing in VANETs and UAV Networks',
+    description: 'Development of optimized routing strategies for Vehicle Ad-Hoc Networks (VANETs) and Unmanned Aerial Vehicle (UAV) networks.'
+  },
+  {
+    title: 'Big Data Utilization for Data Optimization and Performance Enhancement in VANETs',
+    description: 'Leveraging Big Data to optimize data handling and improve performance in VANETs, including accident prediction, traffic forecasting, and more.'
+  }  
 ];
 
 export default function ResearchSubjects() {
