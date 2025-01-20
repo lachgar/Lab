@@ -6,6 +6,83 @@ import Pagination from '../components/Pagination';
 
 const publications = [
   {
+    "title": "Combining IoMT and XAI for Enhanced Triage Optimization: An MQTT Broker Approach with Contextual Recommendations for Improved Patient Priority Management in Healthcare",
+    "authors": "O. Stitini, F. Ouakasse, S. Rakrak, S. Kaloun, O. Bencharef",
+    "journal": "International Journal of Online and Biomedical Engineering",
+    "year": 2024,
+    "volume": 20,
+    "issue": 7,
+    "pages": "145–162"
+  },
+  {
+    "title": "An improved self-training model to detect fake news categories using multi-class classification of unlabeled data: fake news classification with unlabeled data",
+    "authors": "O. Stitini, S. Kaloun, O. Bencharef, S. Qassimi",
+    "journal": "International Journal of Systematic Innovation",
+    "year": 2024,
+    "volume": 8,
+    "issue": 1,
+    "pages": "11–26"
+  },
+  {
+    "title": "Towards a robust solution to mitigate all content-based filtering draw-backs within a recommendation system",
+    "authors": "O. Stitini, S. Kaloun, O. Bencharef",
+    "journal": "International Journal of Systematic Innovation",
+    "year": 2023,
+    "volume": 7,
+    "issue": 7,
+    "pages": "89–111"
+  },
+  {
+    "title": "Towards Ideal and Efficient Recommendation Systems Based on the Five Evaluation Concepts Promoting Serendipity",
+    "authors": "O. Stitini, I. García-Magariño, S. Kaloun, O. Bencharef",
+    "journal": "Journal of Advances in Information Technology",
+    "year": 2023,
+    "volume": 14,
+    "issue": 4,
+    "pages": "701–717"
+  },
+  {
+    "title": "A Context-Aware Framework to Manage the Priority of Injured Persons Arriving at Emergencies",
+    "authors": "F. Ouakasse, O. Stitini, S. Rakrak",
+    "journal": "International Journal of Online and Biomedical Engineering",
+    "year": 2023,
+    "volume": 19,
+    "issue": 8,
+    "pages": "144–162"
+  },
+  {
+    "title": "Towards the Detection of Fake News on Social Networks Contributing to the Improvement of Trust and Transparency in Recommendation Systems: Trends and Challenges",
+    "authors": "O. Stitini, S. Kaloun, O. Bencharef",
+    "journal": "Information (Switzerland)",
+    "year": 2022,
+    "volume": 13,
+    "issue": 3,
+    "pages": "128"
+  },
+  {
+    "title": "An Improved Recommender System Solution to Mitigate the Over-Specialization Problem Using Genetic Algorithms",
+    "authors": "O. Stitini, S. Kaloun, O. Bencharef",
+    "journal": "Electronics (Switzerland)",
+    "year": 2022,
+    "volume": 11,
+    "issue": 2,
+    "pages": "242"
+  },
+  {
+    "title": "How Can We Analyse Emotions on Twitter During an Epidemic Situation? A Features Engineering Approach to Evaluate People's Emotions During the COVID-19 Pandemic",
+    "authors": "O. Stitini, S. Kaloun, O. Bencharef",
+    "journal": "Journal of Tianjin University Science and Technology",
+    "year": 2022
+  },
+  {
+    "title": "Integrating contextual information into multi-class classification to improve the context-aware recommendation",
+    "authors": "O. Stitini, S. Kaloun, O. Bencharef",
+    "journal": "Procedia Computer Science",
+    "year": 2021,
+    "volume": 198,
+    "pages": "311–316"
+  },
+  {
     title: 'decideXpert: Collaborative system using AHP-TOPSIS and fuzzy techniques for multicriteria group decision-making',
     authors: 'Saoud, A., Lachgar, M., Hanine, M., El Dhimni, R., El Azizi, K., & Machmoum, H.',
     journal: 'SoftwareX',
