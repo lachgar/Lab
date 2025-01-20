@@ -19,8 +19,8 @@ const doctorants = [
   },
   {
     name: 'Laila HAMZA',
-    research: 'Automatic Generation of Machine Learning Pipelines: Towards Complete Automation from Modeling to Deployment',
-    specialty: 'Machine Learning Pipelines',
+    research: 'Automation of Software Development and DevOps',
+    specialty: 'Generative AI for Code Generation and DevOps Processes',  
     supervisor: 'Prof. Rahhal ERRATTAHI',
     status: 'In Progress',
     year: 1
