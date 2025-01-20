@@ -1,8 +1,8 @@
-'use client'
+'use client';
 
-import { useState } from 'react'
-import PublicationItem from '../components/PublicationItem'
-import Pagination from '../components/Pagination'
+import { useState } from 'react';
+import PublicationItem from '../components/PublicationItem';
+import Pagination from '../components/Pagination';
 
 const publications = [
   {
@@ -100,40 +100,62 @@ const publications = [
 ];
 
 
-const ITEMS_PER_PAGE = 5
+const ITEMS_PER_PAGE = 5;
 
 export default function Publications() {
-  const [currentPage, setCurrentPage] = useState(1)
+  const [currentPage, setCurrentPage] = useState(1);
+  const [visibleYears, setVisibleYears] = useState<Record<number, boolean>>({});
 
-  const indexOfLastItem = currentPage * ITEMS_PER_PAGE
-  const indexOfFirstItem = indexOfLastItem - ITEMS_PER_PAGE
-  
+  const indexOfLastItem = currentPage * ITEMS_PER_PAGE;
+  const indexOfFirstItem = indexOfLastItem - ITEMS_PER_PAGE;
+
   const groupedPublications = publications.reduce((acc, pub) => {
     if (!acc[pub.year]) {
-      acc[pub.year] = []
+      acc[pub.year] = [];
     }
-    acc[pub.year].push(pub)
-    return acc
-  }, {} as Record<number, typeof publications>)
+    acc[pub.year].push(pub);
+    return acc;
+  }, {} as Record<number, typeof publications>);
 
-  const years = Object.keys(groupedPublications).sort((a, b) => Number(b) - Number(a))
-  const currentPublications = years.slice(indexOfFirstItem, indexOfLastItem)
+  const years = Object.keys(groupedPublications).sort((a, b) => Number(b) - Number(a));
+  const currentPublications = years.slice(indexOfFirstItem, indexOfLastItem);
 
-  const paginate = (pageNumber: number) => setCurrentPage(pageNumber)
+  const toggleYearVisibility = (year: number) => {
+    setVisibleYears(prev => ({
+      ...prev,
+      [year]: !prev[year],
+    }));
+  };
+
+  const paginate = (pageNumber: number) => setCurrentPage(pageNumber);
 
   return (
-    <div className="space-y-8">
-      <h1 className="text-3xl font-bold mb-6 text-primary-800">Our Publications</h1>
-      {currentPublications.map(year => (
-        <div key={year} className="mb-8">
-          <h2 className="text-2xl font-semibold mb-4 text-primary-600">{year}</h2>
-          <div className="space-y-4">
-            {groupedPublications[Number(year)].map((publication, index) => (
-              <PublicationItem key={index} {...publication} />
-            ))}
+    <div className="px-6 lg:px-20 py-12 bg-gray-50 space-y-12">
+      <section className="text-center">
+        <h1 className="text-5xl font-extrabold text-primary-600 mb-8">Our Publications</h1>
+        <p className="text-lg text-primary-700 max-w-4xl mx-auto leading-relaxed">
+          Discover our latest research contributions, spanning multiple disciplines and published in prestigious journals.
+        </p>
+      </section>
+      <div className="space-y-8">
+        {currentPublications.map(year => (
+          <div key={year} className="bg-white p-6 rounded-lg shadow-md border border-primary-300">
+            <h2
+              onClick={() => toggleYearVisibility(Number(year))}
+              className="text-2xl font-semibold mb-4 text-primary-600 cursor-pointer hover:underline"
+            >
+              {year}
+            </h2>
+            {visibleYears[Number(year)] && (
+              <div className="space-y-4">
+                {groupedPublications[Number(year)].map((publication, index) => (
+                  <PublicationItem key={index} {...publication} />
+                ))}
+              </div>
+            )}
           </div>
-        </div>
-      ))}
+        ))}
+      </div>
       <Pagination
         itemsPerPage={ITEMS_PER_PAGE}
         totalItems={years.length}
@@ -141,6 +163,5 @@ export default function Publications() {
         currentPage={currentPage}
       />
     </div>
-  )
+  );
 }
-
