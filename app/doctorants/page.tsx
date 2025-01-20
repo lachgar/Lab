@@ -10,6 +10,15 @@ const doctorants = [
     year: 3
   },
   {
+    name: 'Mohamed El Amine CHAFIKI',
+    research: 'AI-Driven IoT for Multi-Objective Recommender Systems , The development of a personalized, context-aware recommendation system using AI and IoT',
+    specialty: 'AI and IoT',
+    supervisor: 'Prof. Soulaimane KALOUN',
+    coSupervisor: 'Prof. Oumaima STITINI',
+    status: 'In Progress',
+    year: 2
+},
+  {
     name: 'Bader BENHIRT',
     research: 'Automatic Generation of Machine Learning Pipelines: Towards Complete Automation from Modeling to Deployment',
     specialty: 'Machine Learning Pipelines',
@@ -32,16 +41,7 @@ const doctorants = [
     supervisor: 'Prof. Ali KARTIT',
     status: 'In Progress',
     year: 1
-  },
-  {
-    name: 'Mohamed El Amine CHAFIKI',
-    research: 'AI-Driven IoT for Multi-Objective Recommender Systems , The development of a personalized, context-aware recommendation system using AI and IoT',
-    specialty: 'Artificial Intelligence (AI) and Internet of Things (IoT)',
-    supervisor: 'Prof. Soulaimane KALOUN',
-    coSupervisor: 'Prof. Oumaima STITINI',
-    status: 'In Progress',
-    year: 2
-}
+  }
 ];
 
 export default function Doctorants() {
