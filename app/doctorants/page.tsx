@@ -32,7 +32,16 @@ const doctorants = [
     supervisor: 'Prof. Ali KARTIT',
     status: 'In Progress',
     year: 1
-  }
+  },
+  {
+    name: 'Mohamed El Amine CHAFIKI',
+    research: 'Système de Gestion des Réservations de Salles de Réunion',
+    specialty: 'Comparaison de REST, SOAP, GraphQL et gRPC',
+    supervisor: 'Prof. Soulaimane KALOUN',
+    coSupervisor: 'Prof. Oumaima STITINI',
+    status: 'In Progress',
+    year: 1
+}
 ];
 
 export default function Doctorants() {

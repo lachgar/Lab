@@ -2,6 +2,10 @@ import DoctorantCard from '../components/DoctorantCard';
 
 const researchSubjects = [
   {
+    title: 'AI-Driven IoT for Multi-Objective Recommender Systems',
+    description: 'The development of a personalized, context-aware recommendation system using AI and IoT to address multiple objectives and enhance user experience.'
+  },
+  {
     title: 'Blockchain and Artificial Intelligence in Transport and Logistics',
     description: 'Exploring the integration of blockchain technology and AI to enhance efficiency and transparency in transportation and logistics systems.'
   },
