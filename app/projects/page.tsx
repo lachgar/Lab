@@ -22,8 +22,8 @@ const projects = [
     status: 'Ongoing' 
   },
   {
-    title: 'Intelligent System for Managing Treatment Protocols During Pandemics: Case of COVID-19',
-    description: 'A scientific project aimed at developing an intelligent recommendation system to unify treatment protocols for COVID-19 patients. The system leverages archived EventLogs from hospital information systems to build a repository of treatment protocols, automatically enriching it with insights from early pandemic experiences.',
+    title: 'Intelligent System for Managing COVID-19 Treatment Protocols',
+    description: 'A project to develop an AI-powered system that unifies and optimizes COVID-19 treatment protocols using insights extracted from hospital EventLogs.',
     status: 'Completed'
   },
   
