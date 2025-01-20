@@ -21,11 +21,12 @@ const projects = [
     description: 'A mobile and web application for disease classification leveraging deep learning algorithms.', 
     status: 'Ongoing' 
   },
-  { 
-    title: 'BlockSupply', 
-    description: 'A blockchain-based logistics traceability solution to enhance transparency, security, and efficiency in supply chains.', 
-    status: 'Ongoing' 
+  {
+    title: 'Intelligent System for Managing Treatment Protocols During Pandemics: Case of COVID-19',
+    description: 'A scientific project aimed at developing an intelligent recommendation system to unify treatment protocols for COVID-19 patients. The system leverages archived EventLogs from hospital information systems to build a repository of treatment protocols, automatically enriching it with insights from early pandemic experiences.',
+    status: 'Completed'
   },
+  
   {
     title: 'SkinHealthMate',
     description: 'An AI-driven platform for diagnosing skin diseases, integrating advanced machine learning techniques with a user-friendly web and mobile application. It supports dermatologists and patients by providing accurate diagnostic tools, treatment management, and secure access to medical records.',
@@ -37,6 +38,11 @@ const projects = [
     description: 'An AI-driven platform for enhancing blended learning through optimized scheduling and user-centric design.', 
     status: 'Completed' 
   },
+  { 
+    title: 'BlockSupply', 
+    description: 'A blockchain-based logistics traceability solution to enhance transparency, security, and efficiency in supply chains.', 
+    status: 'Ongoing' 
+  }
 ];
 
 export default function Projects() {
