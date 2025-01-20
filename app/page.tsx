@@ -6,7 +6,7 @@ export default function Home() {
         <h2 className="text-3xl font-light text-primary-400 mb-4">Intelligent Systems and Global High-Tech Research Team</h2>
         <h3 className="text-xl text-primary-500 mb-8">Higher Normal School, Marrakech</h3>
         <p className="text-lg text-primary-700 max-w-4xl mx-auto leading-relaxed">
-          INSIGHT Lab is a leading research team at the Higher Normal School, part of the University Cadi Ayyad. This team is associated with the "Laboratoire d'Ingénierie Informatique et Systèmes (L2IS)," focusing on intelligent systems and advanced technologies to address global challenges through innovation and scientific excellence.
+        <strong>INSIGHT Lab</strong> is a leading research team at the <strong>Higher Normal School</strong>, part of the <strong>University Cadi Ayyad</strong>. This team is associated with the <strong>Laboratoire d'Ingénierie Informatique et Systèmes (L2IS)</strong>, focusing on intelligent systems and advanced technologies to address global challenges through innovation and scientific excellence.
         </p>
       </section>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
