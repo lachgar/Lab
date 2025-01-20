@@ -26,13 +26,11 @@ const projects = [
     description: 'A project to develop an AI-powered system that unifies and optimizes COVID-19 treatment protocols using insights extracted from hospital EventLogs.',
     status: 'Completed'
   },
-  
   {
     title: 'SkinHealthMate',
     description: 'An AI-driven platform for diagnosing skin diseases, integrating advanced machine learning techniques with a user-friendly web and mobile application. It supports dermatologists and patients by providing accurate diagnostic tools, treatment management, and secure access to medical records.',
     status: 'Ongoing'
-  }
-  ,  
+  },  
   { 
     title: 'SmartBlendEd', 
     description: 'An AI-driven platform for enhancing blended learning through optimized scheduling and user-centric design.', 
