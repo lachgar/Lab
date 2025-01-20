@@ -173,6 +173,69 @@ const publications = [
     authors: 'M. D. Laanaoui, M. Lachgar, M. Hanine, H. Hrimech, G. V. Santos, and A. Imran.',
     journal: 'IEEE Access',
     year: 2024
+  },
+  {
+    "title": "Enhancing OLSR Protocol by an Advanced Greedy Forwarding Mechanism for VANET in Smart Cities",
+    "authors": "My Driss LAANAOUI, Said RAGHAY",
+    "journal": "Smart Cities",
+    "year": 2022,
+    "volume": 5,
+    "issue": 2,
+    "pages": "650–667"
+  },
+  {
+    "title": "Effect of Black Hole Attack in Different Mobility Models of MANET using OLSR Protocol",
+    "authors": "My Driss LAANAOUI et al.",
+    "journal": "International Journal of Information and Computer Security",
+    "year": 2022,
+    "volume": 18,
+    "issue": "1–2",
+    "pages": "219–235"
+  },
+  {
+    "title": "Impact of Image Compression on the Performance of Steel Surface Defect Classification with a CNN",
+    "authors": "My Driss LAANAOUI et al.",
+    "journal": "Journal of Sensor and Actuator Networks",
+    "year": 2021,
+    "volume": 10,
+    "issue": 4,
+    "pages": "3"
+  },
+  {
+    "title": "New MPR Computation for Securing OLSR Routing Protocol Against Single Black Hole Attack",
+    "authors": "My Driss LAANAOUI et al.",
+    "journal": "Wireless Personal Communications",
+    "year": 2021,
+    "volume": 117,
+    "issue": 2,
+    "pages": "525–544"
+  },
+  {
+    "title": "Big Data Traffic Management in Vehicular Ad-Hoc Network",
+    "authors": "My Driss LAANAOUI et al.",
+    "journal": "International Journal of Electrical and Computer Engineering (IJECE)",
+    "year": 2021,
+    "volume": 11,
+    "issue": 4,
+    "pages": ""
+  },
+  {
+    "title": "The Quality Factor for Detecting Node Isolation Attack in Mobile Ad Hoc Networks Using OLSR Protocol",
+    "authors": "My Driss LAANAOUI et al.",
+    "journal": "International Journal of Internet Protocol Technology",
+    "year": 2021,
+    "volume": 14,
+    "issue": 4,
+    "pages": "197–204"
+  },
+  {
+    "title": "Evaluation of OLSR and AODV Routing Protocols Against Worm Hole Attack in Random Waypoint Mobility",
+    "authors": "My Driss LAANAOUI et al.",
+    "journal": "International Journal of Electrical, Electronics and Data Communication (IJEEDC)",
+    "year": 2019,
+    "volume": "",
+    "issue": "",
+    "pages": ""
   }
 ];
 
