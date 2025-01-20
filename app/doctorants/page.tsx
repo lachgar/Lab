@@ -35,7 +35,6 @@ const doctorants = [
   },
   {
     name: 'Mohamed El Amine CHAFIKI',
-
     research: 'AI-Driven IoT for Multi-Objective Recommender Systems , The development of a personalized, context-aware recommendation system using AI and IoT',
     specialty: 'Artificial Intelligence (AI) and Internet of Things (IoT)',
     supervisor: 'Prof. Soulaimane KALOUN',
