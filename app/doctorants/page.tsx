@@ -35,8 +35,9 @@ const doctorants = [
   },
   {
     name: 'Mohamed El Amine CHAFIKI',
-    research: 'Système de Gestion des Réservations de Salles de Réunion',
-    specialty: 'Comparaison de REST, SOAP, GraphQL et gRPC',
+
+    research: 'AI-Driven IoT for Multi-Objective Recommender Systems , The development of a personalized, context-aware recommendation system using AI and IoT',
+    specialty: 'AI-Driven IoT',
     supervisor: 'Prof. Soulaimane KALOUN',
     coSupervisor: 'Prof. Oumaima STITINI',
     status: 'In Progress',
