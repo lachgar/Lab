@@ -1,17 +1,17 @@
 import TeamMember from '../components/TeamMember';
 
 const teamMembers = [
-  { name: 'Dr. Mohamed Lachgar', role: 'Lead Researcher', image: '/placeholder.svg?height=100&width=100' },
-  { name: 'Dr. My Driss Laannaoui', role: 'Lead Researcher', image: '/placeholder.svg?height=100&width=100' },
-  { name: 'Dr. Oumaima  Stitini', role: 'Senior Scientist', image: '/placeholder.svg?height=100&width=100' },
-  { name: 'Dr. Youssef Nait Malek', role: 'Senior Scientist', image: '/placeholder.svg?height=100&width=100' },
+  { name: 'Dr. Mohamed Lachgar', role: 'Lead Researcher', image: '/placeholder.svg?height=100&width=100', researchGate: 'https://www.researchgate.net/profile/Mohamed-Lachgar' },
+  { name: 'Dr. My Driss Laannaoui', role: 'Lead Researcher', image: '/placeholder.svg?height=100&width=100',  researchGate: 'https://www.researchgate.net/profile/My-Driss-Laanaoui-2' },
+  { name: 'Dr. Oumaima  Stitini', role: 'Senior Scientist', image: '/placeholder.svg?height=100&width=100', researchGate: 'https://www.researchgate.net/profile/Oumaima-Stitini' },
+  { name: 'Dr. Youssef Nait Malek', role: 'Senior Scientist', image: '/placeholder.svg?height=100&width=100', researchGate: 'https://www.researchgate.net/profile/Youssef-Nait-Malek-2' },
 ];
 
 const externalMembers = [
-  { name: 'Dr. Hamid Hrimech', role: 'Lead Researcher', image: '/placeholder.svg?height=100&width=100' },
-  { name: 'Dr. Rahhal Errattahi', role: 'Lead Researcher', image: '/placeholder.svg?height=100&width=100' },
+  { name: 'Dr. Hamid Hrimech', role: 'Lead Researcher', image: '/placeholder.svg?height=100&width=100', researchGate: 'https://www.researchgate.net/profile/Hamid-Hrimech-2' },
+  { name: 'Dr. Rahhal Errattahi', role: 'Lead Researcher', image: '/placeholder.svg?height=100&width=100', researchGate: 'https://www.researchgate.net/profile/Rahhal-Errattahi' },
   { name: 'Dr. Zahid Noureddine', role: 'Senior Scientist', image: '/placeholder.svg?height=100&width=100' },
-  { name: 'Dr. Mustapha Aatila', role: 'Senior Scientist', image: '/placeholder.svg?height=100&width=100' },
+  { name: 'Dr. Mustapha Aatila', role: 'Senior Scientist', image: '/placeholder.svg?height=100&width=100', researchGate: 'https://www.researchgate.net/profile/Mustapha-Aatila' },
 ];
 
 export default function Team() {
