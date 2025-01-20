@@ -26,6 +26,11 @@ const projects = [
     description: 'A blockchain-based logistics traceability solution to enhance transparency, security, and efficiency in supply chains.', 
     status: 'Ongoing' 
   },
+  {
+    title: 'SkinHealthMate',
+    description: 'An AI-powered digital platform designed for skin disease diagnosis. It leverages advanced ensemble learning with EfficientNetB1 and EfficientNetB5, incorporating image augmentation, noise reduction, and secure data management for dermatological care.',
+    status: 'Ongoing'
+  },  
   { 
     title: 'SmartBlendEd', 
     description: 'An AI-driven platform for enhancing blended learning through optimized scheduling and user-centric design.', 
