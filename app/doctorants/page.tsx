@@ -40,7 +40,7 @@ const doctorants = [
     supervisor: 'Prof. Soulaimane KALOUN',
     coSupervisor: 'Prof. Oumaima STITINI',
     status: 'In Progress',
-    year: 1
+    year: 2
 }
 ];
 
