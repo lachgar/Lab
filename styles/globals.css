@@ -118,3 +118,19 @@ body {
     @apply bg-background text-foreground;
   }
 }
+
+.bg-blue-800 {
+  background-color: #1e3a8a;
+}
+
+.hover\:bg-blue-600:hover {
+  background-color: #2563eb;
+}
+
+.text-white {
+  color: white;
+}
+
+.hover\:text-gray-100:hover {
+  color: #f3f4f6;
+}
