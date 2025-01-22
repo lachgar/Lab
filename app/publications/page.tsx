@@ -236,6 +236,54 @@ const publications = [
     "volume": "",
     "issue": "",
     "pages": ""
+  },
+  {
+    "title": "The Use of a Genetic Algorithm to Alleviate the Limited Content Issue in a Content-Based Recommendation System",
+    "authors": "Stitini, O., Kaloun, S., Bencharef, O.",
+    "journal": "Lecture Notes in Networks and Systems",
+    "year": 2023,
+    "volume": "635 LNNS",
+    "issue": "",
+    "pages": "776–782"
+  },
+  {
+    "title": "INVESTIGATING DIFFERENT SIMILARITY METRICS USED IN VARIOUS RECOMMENDER SYSTEMS TYPES: SCENARIO CASES",
+    "authors": "Stitini, O., Kaloun, S., Bencharef, O.",
+    "journal": "International Archives of the Photogrammetry, Remote Sensing and Spatial Information Sciences - ISPRS Archives",
+    "year": 2022,
+    "volume": "48(4/W3-2022)",
+    "issue": "",
+    "pages": "187–193"
+  },
+  {
+    "title": "The Recommendation of a Practical Guide for Doctoral Students Using Recommendation System Algorithms in the Education Field",
+    "authors": "Stitini, O., Kaloun, S., Bencharef, O.",
+    "journal": "Lecture Notes in Networks and Systems",
+    "year": 2021,
+    "volume": "183",
+    "issue": "",
+    "pages": "",
+    "doi": "10.1007/978-3-030-66840-2_19"
+  },
+  {
+    "title": "Artificial Intelligence in Predicting the Spread of Coronavirus to Ensure Healthy Living for All Age Groups",
+    "authors": "Oumaima, S., Soulaimane, K., Omar, B.",
+    "journal": "Advances in Science, Technology & Innovation",
+    "year": 2021,
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "doi": "10.1007/978-3-030-53440-0_2"
+  },
+  {
+    "title": "Latest Trends in Recommender Systems applied in the medical domain: A Systematic Review",
+    "authors": "Stitini Oumaima, Kaloun Soulaimane, Bencharef Omar",
+    "journal": "Proceedings of the 3rd International Conference on Networking, Information Systems & Security (NISS '20)",
+    "year": 2020,
+    "volume": "",
+    "issue": "",
+    "pages": "Article 41, 1–12",
+    "doi": "10.1145/3386723.3387860"
   }
 ];
 
