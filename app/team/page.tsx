@@ -33,7 +33,7 @@ export default function Team() {
       </div>
 
       <div>
-        <h2 className="text-3xl font-bold text-primary-600 mt-12 mb-6">External Members</h2>
+        <h2 className="text-3xl font-bold text-primary-600 mt-12 mb-6">Associate members</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {externalMembers.map((member, index) => (
             <TeamMember key={`external-${index}`} {...member} />
