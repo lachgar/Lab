@@ -22,6 +22,11 @@ const projects = [
     status: 'Ongoing' 
   },
   {
+    title: "Enhancing Smart Cities and Electromobility with AI and IoT",
+    description: "Optimizing driving range prediction, route planning, and electric vehicle charging scheduling through the integration of AI and IoT technologies in smart city solutions.",
+    status: "Ongoing"
+  },  
+  {
     title: 'Intelligent System for Managing COVID-19 Treatment Protocols',
     description: 'A project to develop an AI-powered system that unifies and optimizes COVID-19 treatment protocols using insights extracted from hospital EventLogs.',
     status: 'Completed'
