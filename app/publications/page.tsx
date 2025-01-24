@@ -6,6 +6,37 @@ import Pagination from '../components/Pagination';
 
 const publications = [
   {
+    "title": "HELECAR-D: A dataset for urban electro mobility in Moroccan context",
+    "authors": "NaitMalek Y., Najib M., Bakhouya M., & Gaber J.",
+    "journal": "Data in Brief",
+    "year": 2023,
+    "volume": 48,
+    "issue": "",
+    "pages": "109080",
+    "doi": ""
+  },
+  {
+    "title": "A hybrid approach for state-of-charge forecasting in battery-powered electric vehicles",
+    "authors": "NaitMalek Y., Najib M., Lahlou A., Bakhouya M., Gaber J., & Essaaidi M.",
+    "journal": "Sustainability",
+    "year": 2022,
+    "volume": 14,
+    "issue": 16,
+    "pages": "9993",
+    "doi": ""
+  },
+  {
+    "title": "Embedded real-time speed forecasting for electric vehicles: a case study on RSK urban roads",
+    "authors": "NaitMalek Y., Najib M., Bakhouya M., Gaber J., & Essaaidi M.",
+    "journal": "IEEE Access",
+    "year": 2022,
+    "volume": 10,
+    "issue": "",
+    "pages": "126412–126428",
+    "doi": ""
+  },
+  
+  {
     "title": "Combining IoMT and XAI for Enhanced Triage Optimization: An MQTT Broker Approach with Contextual Recommendations for Improved Patient Priority Management in Healthcare",
     "authors": "O. Stitini, F. Ouakasse, S. Rakrak, S. Kaloun, O. Bencharef",
     "journal": "International Journal of Online and Biomedical Engineering",
