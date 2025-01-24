@@ -315,6 +315,156 @@ const publications = [
     "issue": "",
     "pages": "Article 41, 1–12",
     "doi": "10.1145/3386723.3387860"
+  },
+  {
+    "title": "Flexible Ureteroscopy Lithotripsy Operative Time Prediction Model for the Treatment of Kidney Stones",
+    "authors": "C. Baidada, M. Aatila, M. Lachgar, H. Hrimech, Y. Ommane, and A. Houlali",
+    "journal": "International Journal of Online & Biomedical Engineering",
+    "year": 2024,
+    "volume": 20,
+    "issue": 5,
+    "pages": "",
+    "doi": ""
+  },
+  {
+    "title": "Machine learning for real-time prediction of complications induced by flexible uretero-renoscopy with laser lithotripsy",
+    "authors": "C. Baidada, H. Hrimech, M. Aatila, M. Lachgar, and Y. Ommane",
+    "journal": "International Journal of Electrical and Computer Engineering (IJECE)",
+    "year": 2024,
+    "volume": 14,
+    "issue": 1,
+    "pages": "971-982",
+    "doi": ""
+  },
+  {
+    "title": "AIDSII: An AI-based digital system for intelligent irrigation",
+    "authors": "E. M. Raouhi, M. Zouizza, M. Lachgar, Y. Zouani, H. Hrimech, and A. Kartit",
+    "journal": "Software Impacts",
+    "year": 2023,
+    "volume": 17,
+    "issue": "",
+    "pages": "",
+    "doi": "10.1016/j.simpa.2023.100574"
+  },
+  {
+    "title": "DLDiagnosis: A mobile and web application for diseases classification using Deep Learning",
+    "authors": "A. Mustapha, K. Abdellah, L. Mohamed, L. Khalid, H. Hamid, and K. Ali",
+    "journal": "SoftwareX",
+    "year": 2023,
+    "volume": 23,
+    "issue": "",
+    "pages": "101488",
+    "doi": "10.1016/j.softx.2023.101488"
+  },
+  {
+    "title": "Machine Learning based Recommender Systems for Crop Selection: A Systematic Literature Review",
+    "authors": "Y. Ommane, M. A. Rhanbouri, H. Chouikh, M. Jbene, I. Chairi, M. Lachgar, and S. Benjelloun",
+    "journal": "Machine Intelligence for Smart Applications: Opportunities and Risks",
+    "year": 2023,
+    "volume": "",
+    "issue": "",
+    "pages": "21-59",
+    "doi": ""
+  },
+  {
+    "title": "Unmanned Aerial Vehicle-based Applications in Smart Farming: A Systematic Review",
+    "authors": "E. M. Raouhi, M. Lachgar, H. Hrimech, and A. Kartit",
+    "journal": "International Journal of Advanced Computer Science and Applications",
+    "year": 2023,
+    "volume": 14,
+    "issue": 6,
+    "pages": "123-136",
+    "doi": "10.14569/IJACSA.2023.01406123"
+  },
+  {
+    "title": "Machine Learning Techniques in Keratoconus Classification: A Systematic Review",
+    "authors": "M. Aatila, M. Lachgar, H. Hrimech, and A. Kartit",
+    "journal": "International Journal of Advanced Computer Science and Applications",
+    "year": 2023,
+    "volume": 14,
+    "issue": 5,
+    "pages": "69-83",
+    "doi": "10.14569/IJACSA.2023.0140569"
+  },
+  {
+    "title": "Evaluating FFT-Based Convolutions on Skin Diseases Dataset",
+    "authors": "A. Aboulmira, H. Hrimech, and M. Lachgar",
+    "journal": "Lecture Notes on Data Engineering and Communications Technologies",
+    "year": 2023,
+    "volume": 397,
+    "issue": "",
+    "pages": "368-379",
+    "doi": "10.1007/978-3-031-27762-7_39"
+  },
+  {
+    "title": "Decision Framework for Cross-Platform Mobile Development Frameworks Using an Integrated Multi-Criteria Decision-Making Methodology",
+    "authors": "M. Lachgar, M. Hanine, H. Benouda, and Y. Ommane",
+    "journal": "International Journal of Mobile Computing and Multimedia Communications",
+    "year": 2022,
+    "volume": 14,
+    "issue": 2,
+    "pages": "1-19",
+    "doi": "10.2174/2210327912666220610123330"
+  },
+  {
+    "title": "Blockchain, IoT and AI revolution within transport and logistics",
+    "authors": "Z. K. Idrissi, M. Lachgar, and H. Hrimech",
+    "journal": "14th International Conference of Logistics and Supply Chain Management",
+    "year": 2022,
+    "volume": "",
+    "issue": "",
+    "pages": "",
+    "doi": "10.1109/LOGISTIQUA55056.2022.9938035"
+  },
+  {
+    "title": "Comparative Study of Multiple CNN Models for Classification of 23 Skin Diseases",
+    "authors": "A. Aboulmira, H. Hrimech, and M. Lachgar",
+    "journal": "International Journal of Online & Biomedical Engineering",
+    "year": 2022,
+    "volume": 18,
+    "issue": 11,
+    "pages": "1-12",
+    "doi": "10.3991/ijoe.v18i11.32517"
+  },
+  {
+    "title": "An intuitionistic fuzzy approach for smart city development evaluation for developing countries: Moroccan context",
+    "authors": "M. Hanine, O. Boutkhoum, F. E. Barakaz, M. Lachgar, N. Assad, F. Rustam, and I. Ashraf",
+    "journal": "Mathematics",
+    "year": 2021,
+    "volume": 9,
+    "issue": 21,
+    "pages": "2668",
+    "doi": "10.3390/math9212668"
+  },
+  {
+    "title": "Android REST APIs: Volley vs Retrofit",
+    "authors": "M. Lachgar, H. Benouda, and S. Elfirdoussi",
+    "journal": "Proceedings of the International Symposium on Advanced Electrical and Communication Technologies",
+    "year": 2019,
+    "volume": "",
+    "issue": "",
+    "pages": "246-251",
+    "doi": "10.1109/ISAECT.2018.8618824"
+  },
+  {
+    "title": "Assessing Distance Learning in Higher Education during the COVID-19 Pandemic",
+    "authors": "S. El Firdoussi, M. Lachgar, H. Kabaili, A. Rochdi, D. Goujdami, and L. El Firdoussi",
+    "journal": "Education Research International",
+    "year": 2020,
+    "volume": "",
+    "issue": "",
+    "pages": "Article ID 8890633",
+    "doi": "10.1155/2020/8890633"
+  },
+  {
+    "title": "Pragmatic approach to modeling and generating mobile cross-platform applications",
+    "authors": "M. Lachgar, K. Elbaamrani, A. Abdali, and K. Lamhaddab",
+    "journal": "Journal of Computer Science",
+    "year": 2019,
+    "volume": 15,
+    "issue": 5,
+    "pages": "416-434",
+    "doi": "10.3844/jcssp.2019.416.434"
   }
 ];
 
